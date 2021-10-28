@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.back{
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.hero{
+    background-color: hsl(225, 100%, 98%);
+    display: inline-block;
+    width: 450px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.hero .hero__img img{
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.titulo{
+    text-align: center;
+    margin: 30px 0 10px 0;
+}
+.parrafo{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    font-size: 16px;
+    margin: 0 80px 0 80px;
+}
+.box_plan{
+    background-color: hsla(225, 100%, 94%, 0.397);
+    width: 300px;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-left: 75px;
+    display: flex;
+}
+.box_plan img{
+    margin: 0 17px;
+}
+.plan{
+    margin-top: 4px;
+}
+.plan span{
+    color: hsl(224, 23%, 55%);
+    margin-left: 3px;
+    font-size: 16px;
+}
+h2{
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+.change{
+    margin-top: 15px;
+    margin-left: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    color: hsla(245, 75%, 52%);
+}
+.caja_pago{
+    width: 300px;
+}
+.caja_pago .pago{
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    background-color: hsla(245, 75%, 52%);
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 75px;
+    padding: 15px 0;
+    box-shadow: 0 0 10px gray;
+}
+.caja_pago .cancelar{
+    background-color: hsl(225, 100%, 98%);
+    display: inline-block;
+    width: 100%;
+    color: hsl(224, 23%, 55%);
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 0;
+    margin-left: 75px;
+    padding: 15px 0;
+}
+.change:hover{
+    color: hsla(223, 47%, 23%, 0.787); 
+}
+.caja_pago .pago:hover{
+    background-color: hsla(223, 47%, 23%, 0.787); 
+
+}
+.caja_pago .cancelar:hover{
+    color: #000;
+}
+
